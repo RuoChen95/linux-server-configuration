@@ -84,7 +84,7 @@ A baseline installation of a Linux server
         su vagrant -c 'createdb forum'
         su vagrant -c 'psql forum -f /vagrant/forum/forum.sql'
     
-        vagrantTip="[35m[1mThe shared directory is located at /vagrant\\nTo access your shared files: cd /vagrant[m"
+        vagrantTip="[35m[1mThe shared directory is located at /vagrant\\nTo access your shared files: cd /vagrant[m"
         echo -e $vagrantTip > /etc/motd
     
         wget http://download.redis.io/redis-stable.tar.gz

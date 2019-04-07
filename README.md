@@ -7,7 +7,7 @@ A baseline installation of a Linux server
     - SSH port: 2200
 
 2. The complete URL to your hosted web application.
-    - complete URL: http://xieruochen.info/
+    - complete URL: http://xieruochen.me/
 
 3. Software you installed and Configuration changes made.
     - software you installed: Apache and Wsgi
@@ -108,3 +108,5 @@ A baseline installation of a Linux server
         - In the step four, the configuration should specify port which is 5000 in the example.
     - The directory problem: http://help.pythonanywhere.com/pages/NoSuchFileOrDirectory
     - Importerror: https://stackoverflow.com/questions/25026326/importerror-cannot-import-name-app
+    - The session problem: https://stackoverflow.com/questions/6519546/scoped-sessionsession-maker-or-plain-session-maker-in-sqlalchemy
+    - DB permission(lang:cn): https://blog.csdn.net/u013163567/article/details/50555179/
